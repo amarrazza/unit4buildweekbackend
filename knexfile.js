@@ -16,4 +16,14 @@ module.exports = {
     ...sharedConfig,
     connection: { filename: './data/test.db3' },
   },
+  staging: {
+    ...sharedConfig,
+    connection: { filename: './data/auth.db3' },
+    seeds: { directory: './data/seeds' },
+  },
+  production: {
+    ...sharedConfig,
+    connection: { filename: './data/auth.db3' },
+    seeds: { directory: './data/seeds' },
+  }
 };
