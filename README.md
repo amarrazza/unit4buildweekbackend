@@ -1,3 +1,5 @@
-# unit4buildweekbackend
+# Back end server for keeping track of plant care among different species
 
-heroku deployment: https://unit4buildweekbackend.herokuapp.com/
+Heroku deployment: https://unit4buildweekbackend.herokuapp.com/
+
+Built using Node.js
